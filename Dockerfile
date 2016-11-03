@@ -18,6 +18,7 @@ RUN mv data /data \
 VOLUME /data
 
 COPY docker-entrypoint.sh /docker-entrypoint.sh
+RUN chmod 755 /docker-entrypoint.sh
 
 EXPOSE 7474 7473 7687
 
