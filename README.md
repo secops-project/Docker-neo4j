@@ -2,4 +2,4 @@
 
 Starting the container:
 
-docker run -p 7474:7474 -p 7687:7687 -v neo4j_data:/data --name my_neo4j secops/neo4j
+docker run -d -p 7474:7474 -p 7687:7687 -v neo4j_data:/data --name my_neo4j secops/neo4j
